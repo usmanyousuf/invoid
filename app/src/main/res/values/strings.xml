@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">invoid</string>
+    <string name="select_the_document_to_upload">Select the document to upload</string>
+    <string-array name="Names">
+        <item>ADHAAR CARD</item>
+        <item>PAN CARD</item>
+        <item>DRIVING LICENSE</item>
+        <item>PASSPORT </item>
+        <item>OTHER </item>
+    </string-array>
+</resources>

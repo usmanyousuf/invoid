@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".captureimage1"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/uploadImage"
+            android:layout_width="407dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/eg" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:weightSum="3"
+    >
+        <Button
+            android:id="@+id/cameraB"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:drawableRight="@drawable/camera"
+            android:paddingRight="15dp"
+            android:text="Camera" />
+        <Button
+            android:id="@+id/uploadB"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:text="Upload" />
+        <Button
+            android:id="@+id/galleryB"
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:text="Gallery" />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
